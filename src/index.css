@@ -4,7 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  /* background-color: #7700ee; */
+  background-image: url(../public/backgroud.jpeg);
   color: #fff;
   overflow-x: hidden;
 }
@@ -15,6 +16,10 @@ body {
 
 h1 {
   font-size: 5rem;
+  color: #FF0000;
+}
+h2 {
+  color: #FF0000;
 }
 @media screen and (max-width: 768px) {
   h1 {
@@ -63,6 +68,9 @@ h1 {
   width: 100%;
   text-align: left;
   gap: 2rem;
+  padding: 4rem;
+  background: hsla(0,0%, 30%, 50%);
+  backdrop-filter: blur(10px);
 }
 .member-page > div > div {
   display: flex;
@@ -93,7 +101,6 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
 }
 
 .member-page form .card > div {
